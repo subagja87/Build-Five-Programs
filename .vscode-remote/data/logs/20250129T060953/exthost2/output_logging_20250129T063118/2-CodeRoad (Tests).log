@@ -1,0 +1,3551 @@
+FAILED TEST LOG
+  ✘ You should run your script with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './countdown.sh' && (arg < 1 || isNaN(arg) || /\./.test(lastCommand[1])) && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/610.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "for" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*sleep[ \t]+1[ \t]*;?[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 9: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 9: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 9: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 9: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 9: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 11: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 11: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 11: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 11: unexpected EOF while looking for matching `"'
+./countdown.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}/g.test(output) && !/1/g.test(output) && /:[ \t]+'[^']*'[ \t]*?\n+/g.test(scriptFile))
+
+at Context.<anonymous> (test/700.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 8: unexpected EOF while looking for matching `''
+./countdown.sh: line 17: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'help' && lastCommand[1] === 'while')
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'help' && lastCommand[1] === 'while')
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'help' && lastCommand[1] === 'while')
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'help' && lastCommand[1] === 'while')
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/1/g.test(output) && /I=('|"|)\$1\1/.test(scriptFile))
+
+at Context.<anonymous> (test/730.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/1/g.test(output) && /I=('|"|)\$1\1/.test(scriptFile))
+
+at Context.<anonymous> (test/730.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/1/g.test(output) && /I=('|"|)\$1\1/.test(scriptFile))
+
+at Context.<anonymous> (test/730.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct math in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/750.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct math in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/750.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly have the "sleep" in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*sleep[ \t]+1(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/760.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly have the "sleep" in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*sleep[ \t]+1(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/760.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly have the "sleep" in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*sleep[ \t]+1(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/760.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/790.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/790.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/790.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/790.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/790.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^#[ \t]*Bingo Number Generator[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/810.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^#[ \t]*Bingo Number Generator[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/810.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Bingo Number Generator ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/815.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 3: unexpected EOF while looking for matching `"'
+./bingo.sh: line 4: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 3: unexpected EOF while looking for matching `"'
+./bingo.sh: line 4: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 3: unexpected EOF while looking for matching `"'
+./bingo.sh: line 4: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)5\1[ \t]*;?[ \t]*$/gm.test(scriptFile) && /^5$/gm.test(output))
+
+at Context.<anonymous> (test/817.test.js:7:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)5\1[ \t]*;?[ \t]*$/gm.test(scriptFile) && /^5$/gm.test(output))
+
+at Context.<anonymous> (test/817.test.js:7:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/5/g.test(output))
+
+at Context.<anonymous> (test/818.test.js:6:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/5/g.test(output))
+
+at Context.<anonymous> (test/818.test.js:6:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\$LANG[ \t]*;?\s*$/gm.test(lastCommand))
+
+at Context.<anonymous> (test/822.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)\$RANDOM\1[ \t]*;?[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/828.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)\$RANDOM\1[ \t]*;?[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/828.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)\$RANDOM\1[ \t]*;?[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/828.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should run your script by executing it
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './bingo.sh' && secondLastCommand[0] === './bingo.sh' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/830.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)\$RANDOM%75[ \t]*;?[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/835.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)\$I\1[ \t]*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/884.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)\$I\1[ \t]*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/884.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+('|"|)\$J\1\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/908.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+\$\(\(\s*\$?J\s*\*\s*5\s*\+\s*25\s*\)\)\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/911.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*75[ \t]*\)\)[ \t]*;?\s*$/gm.test(lastCommand))
+
+at Context.<anonymous> (test/918.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*75[ \t]*\)\)[ \t]*;?\s*$/gm.test(lastCommand))
+
+at Context.<anonymous> (test/918.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 4: unexpected EOF while looking for matching `)'
+./bingo.sh: line 6: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 4: unexpected EOF while looking for matching `)'
+./bingo.sh: line 6: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should run your script by executing it
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './bingo.sh' && secondLastCommand[0] === './bingo.sh' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/930.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*TEXT=('|"|)The next number is, \1[ \t]*;?\s*$/gm.test(scriptFile) && /^The next number is,$/gm.test(output))
+
+at Context.<anonymous> (test/940.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*TEXT=('|"|)The next number is, \1[ \t]*;?\s*$/gm.test(scriptFile) && /^The next number is,$/gm.test(output))
+
+at Context.<anonymous> (test/940.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: syntax error near unexpected token `)'
+./.freeCodeCamp/test.sh: line 6: `()'
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: syntax error near unexpected token `)'
+./.freeCodeCamp/test.sh: line 6: `()'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: ((: 6 -le 15: syntax error in expression (error token is "15")
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: ((: NUMBER -le 15: syntax error in expression (error token is "15")
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-le[ \t]+30[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, I:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/960.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 10: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 10: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 10: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 10: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 10: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 10: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `fi'
+An error occurred running ./.freeCodeCamp/test.sh 
+./.freeCodeCamp/test.sh: line 10: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 10: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 9: syntax error near `30'
+./.freeCodeCamp/test.sh: line 9: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 9: syntax error near `30'
+./.freeCodeCamp/test.sh: line 9: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 9: syntax error near `30'
+./.freeCodeCamp/test.sh: line 9: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 9: syntax error near `30'
+./.freeCodeCamp/test.sh: line 9: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 9: syntax error near `30'
+./.freeCodeCamp/test.sh: line 9: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 10: syntax error near `30'
+./.freeCodeCamp/test.sh: line 10: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 10: syntax error near `30'
+./.freeCodeCamp/test.sh: line 10: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 10: syntax error near `30'
+./.freeCodeCamp/test.sh: line 10: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 10: syntax error near `30'
+./.freeCodeCamp/test.sh: line 10: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 10: syntax error near `30'
+./.freeCodeCamp/test.sh: line 10: `elif [[ NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 10: syntax error near `30'
+./.freeCodeCamp/test.sh: line 10: `elif [[ $NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<[ \t]*46[ \t]*\)\)/gm.test(scriptFile) && /^The next number is, N:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/970.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 13: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 15: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 13: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 15: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 13: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 15: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 13: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 15: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 16: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 16: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 16: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 16: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 7: T: command not found
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 7: TEXT3: command not found
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 17: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 17: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<[ \t]*46[ \t]*\)\)/gm.test(scriptFile) && /^The next number is, N:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/970.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<[ \t]*46[ \t]*\)\)/gm.test(scriptFile) && /^The next number is, N:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/970.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<[ \t]*46[ \t]*\)\)/gm.test(scriptFile) && /^The next number is, N:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/970.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 19: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 19: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 19: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 19: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 19: unexpected token `newline', conditional binary operator expected
+./.freeCodeCamp/test.sh: line 19: syntax error near `fi'
+./.freeCodeCamp/test.sh: line 19: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 19: unexpected token `newline', conditional binary operator expected
+./.freeCodeCamp/test.sh: line 19: syntax error near `fi'
+./.freeCodeCamp/test.sh: line 19: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 18: unexpected argument `newline' to conditional binary operator
+./.freeCodeCamp/test.sh: line 18: syntax error near `<'
+./.freeCodeCamp/test.sh: line 18: `elif [[ $NUMBER <'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 20: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 20: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 20: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 20: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 21: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 21: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 21: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 21: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 15: ((: NUMBER  46 : syntax error in expression (error token is "46 ")
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 15: ((: NUMBER -lt 46 : syntax error in expression (error token is "46 ")
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 15: ((: NUMBER  46 : syntax error in expression (error token is "46 ")
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 22: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 22: `fi'
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 22: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 22: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 22: e: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 9: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 25: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 25: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 24: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 20: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 20: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 20: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 21: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/1020.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/1020.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/1020.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "shebang"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*#![ \t]*\/bin\/bash\s*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1030.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Fortune Teller ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/1050.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Fortune Teller ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/1050.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 3: unexpected EOF while looking for matching `"'
+./fortune.sh: line 4: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+\${ARR\[(@|\*)\]}\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1090.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+\${ARR\[(@|\*)\]}\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1090.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'declare' && lastCommand[1] === '-p' && lastCommand[2] === 'ARR')
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'declare' && lastCommand[1] === '-p' && lastCommand[2] === 'ARR')
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'declare' && lastCommand[1] === '-p' && lastCommand[2] === 'ARR')
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 5: declare: RESPONSES: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: RESPONSES: command not found
+./.freeCodeCamp/test.sh: line 5: declare: RESPONSES: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 4: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[5\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^\s*Ask again later$/gm.test(output))
+
+at Context.<anonymous> (test/1120.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[5\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^\s*Ask again later$/gm.test(output))
+
+at Context.<anonymous> (test/1120.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[5\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^\s*Ask again later$/gm.test(output))
+
+at Context.<anonymous> (test/1120.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[5\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^\s*Ask again later$/gm.test(output))
+
+at Context.<anonymous> (test/1120.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 5: unexpected EOF while looking for matching `}'
+./fortune.sh: line 6: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 5: unexpected EOF while looking for matching `}'
+./fortune.sh: line 6: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the correct variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*N=('|"|)\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*6[ \t]*\)\)\1[ \t]*;?\s*$/gm.test(scriptFile) && /^\d{1}$/gm.test(output))
+
+at Context.<anonymous> (test/1140.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*N=('|"|)\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*6[ \t]*\)\)\1[ \t]*;?\s*$/gm.test(scriptFile) && /^\d{1}$/gm.test(output))
+
+at Context.<anonymous> (test/1140.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*N=('|"|)\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*6[ \t]*\)\)\1[ \t]*;?\s*$/gm.test(scriptFile) && /^\d{1}$/gm.test(output))
+
+at Context.<anonymous> (test/1140.test.js:9:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+  ✘ Your script should have the correct variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+  ✘ Your script should have the correct variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+  ✘ Your script should have the correct variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+  ✘ Your script should have the correct variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+  ✘ Your script should have the correct variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the correct variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*N=('|"|)\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*6[ \t]*\)\)\1[ \t]*;?\s*$/gm.test(scriptFile) && /^\d{1}$/gm.test(output))
+
+at Context.<anonymous> (test/1140.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*N=('|"|)\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*6[ \t]*\)\)\1[ \t]*;?\s*$/gm.test(scriptFile) && /^\d{1}$/gm.test(output))
+
+at Context.<anonymous> (test/1140.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[\$N\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^Yes\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1150.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[\$N\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^Yes\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1150.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[\$N\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^Yes\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1150.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested function added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+)?GET_FORTUNE[ \t]*\([ \t]*\)\s*{\s*}[ \t]*;?$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 9: Ask: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should call the suggested fuction correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 12: GE: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should call the suggested fuction correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 12: GET_: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should call the suggested fuction correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 12: GET_FUN: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should call the suggested fuction correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 12: syntax error near unexpected token `newline'
+./fortune.sh: line 12: `GET_FUNCTION('
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should call the suggested fuction correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 13: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should call the suggested fuction correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 12: GET_FUNCTION: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should "read" input into the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/test?/gm.test(output))
+
+at Context.<anonymous> (test/1220.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "read" input into the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/test?/gm.test(output))
+
+at Context.<anonymous> (test/1220.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "read" input into the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/test?/gm.test(output))
+
+at Context.<anonymous> (test/1220.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: write EPIPE
+at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+at writeGeneric (node:internal/stream_base_commons:151:3)
+at Socket._writeGeneric (node:net:962:11)
+at Socket._write (node:net:974:8)
+at writeOrBuffer (node:internal/streams/writable:392:12)
+at _write (node:internal/streams/writable:333:10)
+at Writable.write (node:internal/streams/writable:337:10)
+at Socket.<anonymous> (test/utils.js:116:19)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+
+An error occurred running ./fortune.sh
+./fortune.sh: line 15: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: done() called multiple times in test <Your script should have the suggested "until" loop added correctly> of file /workspace/project/.freeCodeCamp/test/1260.test.js; in addition, done() received error: Error: Command failed: ./fortune.sh
+./fortune.sh: line 15: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12) {
+code: 2,
+killed: false,
+signal: null,
+cmd: './fortune.sh',
+stdout: '\n~~ Fortune Teller ~~\n\nOutlook good\nAsk a yes or no question:\n',
+stderr: './fortune.sh: line 15: syntax error: unexpected end of file\n'
+}
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 15: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 14: conditional binary operator expected
+./fortune.sh: line 14: syntax error near `$QUESTION'
+./fortune.sh: line 14: `read $QUESTION'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 14: conditional binary operator expected
+./fortune.sh: line 14: syntax error near `$QUESTION'
+./fortune.sh: line 14: `read $QUESTION'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./fortune.sh: line 13: unexpected token `newline', conditional binary operator expected
+./fortune.sh: line 13: syntax error near `$QUESTION'
+./fortune.sh: line 13: `until [[ $QUESTION'
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 13: unexpected token `newline', conditional binary operator expected
+./fortune.sh: line 13: syntax error near `$QUESTION'
+./fortune.sh: line 13: `until [[ $QUESTION'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./fortune.sh: line 13: unexpected token `newline', conditional binary operator expected
+./fortune.sh: line 13: syntax error near `$QUESTION'
+./fortune.sh: line 13: `until [[ $QUESTION '
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 13: unexpected token `newline', conditional binary operator expected
+./fortune.sh: line 13: syntax error near `$QUESTION'
+./fortune.sh: line 13: `until [[ $QUESTION '
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 13: unexpected argument `newline' to conditional binary operator
+./fortune.sh: line 13: syntax error near `='
+./fortune.sh: line 13: `until [[ $QUESTION ='
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: write EPIPE
+at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+at writeGeneric (node:internal/stream_base_commons:151:3)
+at Socket._writeGeneric (node:net:962:11)
+at Socket._write (node:net:974:8)
+at writeOrBuffer (node:internal/streams/writable:392:12)
+at _write (node:internal/streams/writable:333:10)
+at Writable.write (node:internal/streams/writable:337:10)
+at Socket.<anonymous> (test/utils.js:116:19)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+
+An error occurred running ./fortune.sh
+./fortune.sh: line 13: syntax error in conditional expression
+./fortune.sh: line 14: syntax error near `read'
+./fortune.sh: line 14: `read $QUESTION'
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: done() called multiple times in test <Your script should have the suggested "until" loop added correctly> of file /workspace/project/.freeCodeCamp/test/1260.test.js; in addition, done() received error: Error: Command failed: ./fortune.sh
+./fortune.sh: line 13: syntax error in conditional expression
+./fortune.sh: line 14: syntax error near `read'
+./fortune.sh: line 14: `read $QUESTION'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12) {
+code: 2,
+killed: false,
+signal: null,
+cmd: './fortune.sh',
+stdout: '\n~~ Fortune Teller ~~\n\nOutlook good\nAsk a yes or no question:\n',
+stderr: './fortune.sh: line 13: syntax error in conditional expression\n' +
+"./fortune.sh: line 14: syntax error near `read'\n" +
+"./fortune.sh: line 14: `read $QUESTION'\n"
+}
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: write EPIPE
+at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+at writeGeneric (node:internal/stream_base_commons:151:3)
+at Socket._writeGeneric (node:net:962:11)
+at Socket._write (node:net:974:8)
+at writeOrBuffer (node:internal/streams/writable:392:12)
+at _write (node:internal/streams/writable:333:10)
+at Writable.write (node:internal/streams/writable:337:10)
+at Socket.<anonymous> (test/utils.js:116:19)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+
+An error occurred running ./fortune.sh
+./fortune.sh: line 13: syntax error in conditional expression
+./fortune.sh: line 14: syntax error near `read'
+./fortune.sh: line 14: `read $QUESTION'
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: done() called multiple times in test <Your script should have the suggested "until" loop added correctly> of file /workspace/project/.freeCodeCamp/test/1260.test.js; in addition, done() received error: Error: Command failed: ./fortune.sh
+./fortune.sh: line 13: syntax error in conditional expression
+./fortune.sh: line 14: syntax error near `read'
+./fortune.sh: line 14: `read $QUESTION'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12) {
+code: 2,
+killed: false,
+signal: null,
+cmd: './fortune.sh',
+stdout: '\n~~ Fortune Teller ~~\n\nAsk again later\nAsk a yes or no question:\n',
+stderr: './fortune.sh: line 13: syntax error in conditional expression\n' +
+"./fortune.sh: line 14: syntax error near `read'\n" +
+"./fortune.sh: line 14: `read $QUESTION'\n"
+}
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 13: syntax error in conditional expression
+./fortune.sh: line 14: syntax error near `read'
+./fortune.sh: line 14: `read $QUESTION'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: write EPIPE
+at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+at writeGeneric (node:internal/stream_base_commons:151:3)
+at Socket._writeGeneric (node:net:962:11)
+at Socket._write (node:net:974:8)
+at writeOrBuffer (node:internal/streams/writable:392:12)
+at _write (node:internal/streams/writable:333:10)
+at Writable.write (node:internal/streams/writable:337:10)
+at Socket.<anonymous> (test/utils.js:116:19)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+
+An error occurred running ./fortune.sh
+./fortune.sh: line 16: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: done() called multiple times in test <Your script should have the suggested "until" loop added correctly> of file /workspace/project/.freeCodeCamp/test/1260.test.js; in addition, done() received error: Error: Command failed: ./fortune.sh
+./fortune.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12) {
+code: 2,
+killed: false,
+signal: null,
+cmd: './fortune.sh',
+stdout: '\n~~ Fortune Teller ~~\n\nOutlook good\nAsk a yes or no question:\n',
+stderr: './fortune.sh: line 16: syntax error: unexpected end of file\n'
+}
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 16: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: write EPIPE
+at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+at writeGeneric (node:internal/stream_base_commons:151:3)
+at Socket._writeGeneric (node:net:962:11)
+at Socket._write (node:net:974:8)
+at writeOrBuffer (node:internal/streams/writable:392:12)
+at _write (node:internal/streams/writable:333:10)
+at Writable.write (node:internal/streams/writable:337:10)
+at Socket.<anonymous> (test/utils.js:116:19)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+
+An error occurred running ./fortune.sh
+./fortune.sh: line 17: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: done() called multiple times in test <Your script should have the suggested "until" loop added correctly> of file /workspace/project/.freeCodeCamp/test/1260.test.js; in addition, done() received error: Error: Command failed: ./fortune.sh
+./fortune.sh: line 17: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12) {
+code: 2,
+killed: false,
+signal: null,
+cmd: './fortune.sh',
+stdout: '\n~~ Fortune Teller ~~\n\nNo\n',
+stderr: './fortune.sh: line 17: syntax error: unexpected end of file\n'
+}
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 18: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 15: conditional binary operator expected
+./fortune.sh: line 15: syntax error near `-'
+./fortune.sh: line 15: `until [[ $QUESTION - test? ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 15: conditional binary operator expected
+./fortune.sh: line 15: syntax error near `-e'
+./fortune.sh: line 15: `until [[ $QUESTION -e test? ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 19: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+
+./fortune.sh: line 7: unexpected EOF while looking for matching `"'
+./fortune.sh: line 20: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 7: unexpected EOF while looking for matching `"'
+./fortune.sh: line 20: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+at new NodeError (node:internal/errors:405:5)
+at Socket.onChildStdout (node:child_process:490:14)
+at Socket.emit (node:events:529:35)
+at addChunk (node:internal/streams/readable:368:12)
+at readableAddChunk (node:internal/streams/readable:337:11)
+at Readable.push (node:internal/streams/readable:278:10)
+at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*until[ \t]+\[\[[ \t]+\$QUESTION[ \t]+==?[ \t]+('|"|)test\?\1[ \t]+\]\]/gm.test(scriptFile) && output.match(/Ask a yes or no question:/gm).length === 2)
+
+at Context.<anonymous> (test/1260.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*until[ \t]+\[\[[ \t]+\$QUESTION[ \t]+==?[ \t]+('|"|)test\?\1[ \t]+\]\]/gm.test(scriptFile) && output.match(/Ask a yes or no question:/gm).length === 2)
+
+at Context.<anonymous> (test/1260.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 15: conditional binary operator expected
+./fortune.sh: line 15: syntax error near `-'
+./fortune.sh: line 15: `until [[ $QUESTION - ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 15: unexpected argument `]]' to conditional binary operator
+./fortune.sh: line 15: syntax error near `]]'
+./fortune.sh: line 15: `until [[ $QUESTION -eq  ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "until" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*until[ \t]+\[\[[ \t]+\$QUESTION[ \t]+==?[ \t]+('|"|)test\?\1[ \t]+\]\]/gm.test(scriptFile) && output.match(/Ask a yes or no question:/gm).length === 2)
+
+at Context.<anonymous> (test/1260.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

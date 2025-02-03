@@ -1,0 +1,22 @@
+2025-01-29 06:09:53.972 [info] 
+
+
+
+
+2025-01-29 06:09:53.991 [info] Extension host agent started.
+2025-01-29 06:09:54.044 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-01-29 06:09:54.044 [info] Extension 'github.vscode-pull-request-github' v0.102.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2025-01-29 06:09:58.840 [info] [192.168.69.10][bea74a05][ManagementConnection] New connection established.
+2025-01-29 06:09:59.523 [info] [192.168.171.139][f2b42113][ExtensionHostConnection] New connection established.
+2025-01-29 06:09:59.527 [info] [192.168.171.139][f2b42113][ExtensionHostConnection] <126> Launched Extension Host Process.
+2025-01-29 06:12:44.873 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-29 06:12:44.875 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-29 06:26:49.005 [info] [192.168.69.10][bea74a05][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-29 06:26:49.110 [info] [192.168.171.139][f2b42113][ExtensionHostConnection] <126> Extension Host Process exited with code: 0, signal: null.
+2025-01-29 06:31:15.963 [info] [192.168.69.10][86f99ba3][ManagementConnection] New connection established.
+2025-01-29 06:31:16.560 [info] [192.168.69.10][71ec2bbb][ExtensionHostConnection] New connection established.
+2025-01-29 06:31:16.568 [info] [192.168.69.10][71ec2bbb][ExtensionHostConnection] <3201> Launched Extension Host Process.
+2025-01-29 08:04:23.391 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-29 08:04:23.392 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-29 08:42:37.750 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-29 08:42:37.752 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

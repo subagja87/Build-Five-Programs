@@ -1,0 +1,30 @@
+2025-01-29 12:21:28.075 [info] [main] Log level: Info
+2025-01-29 12:21:28.075 [info] [main] Validating found git in: "git"
+2025-01-29 12:21:28.075 [info] [main] Using git "2.43.0" from "git"
+2025-01-29 12:21:28.075 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-29 12:21:28.075 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-29 12:21:28.075 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-01-29 12:21:28.075 [info] [Model][openRepository] Opened repository: /workspace/project
+2025-01-29 12:21:28.075 [info] > git config --get commit.template [3ms]
+2025-01-29 12:21:28.075 [info] > git rev-parse --show-toplevel [5ms]
+2025-01-29 12:21:28.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-29 12:21:28.075 [info] > git status -z -uall [5ms]
+2025-01-29 12:21:28.075 [info] > git rev-parse --show-toplevel [9ms]
+2025-01-29 12:21:28.075 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-29 12:21:28.075 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-29 12:21:28.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-29 12:21:28.075 [info] > git config --get commit.template [4ms]
+2025-01-29 12:21:28.075 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2025-01-29 12:21:28.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-01-29 12:21:28.075 [info] > git status -z -uall [4ms]
+2025-01-29 12:21:28.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2025-01-29 12:21:28.075 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-01-29 12:21:28.728 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-29 12:21:28.740 [info] > git show --textconv :five.sh [5ms]
+2025-01-29 12:21:28.742 [info] > git ls-files --stage -- /workspace/project/five.sh [3ms]
+2025-01-29 12:21:29.568 [info] > git blame --root --incremental 91139aecf994c11a55888e5537bf9949ba96d5f9 -- /workspace/project/five.sh [2ms]
+2025-01-29 12:21:29.568 [info] fatal: no such path five.sh in 91139aecf994c11a55888e5537bf9949ba96d5f9
+2025-01-29 12:21:31.189 [info] > git config --get commit.template [5ms]
+2025-01-29 12:21:31.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-29 12:21:31.198 [info] > git status -z -uall [4ms]
+2025-01-29 12:21:31.200 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

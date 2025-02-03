@@ -1,0 +1,118 @@
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-x\s+(\.\/)?countdown\.sh\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/576.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-x\s+(\.\/)?countdown\.sh\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/576.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-x\s+(\.\/)?countdown\.sh\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/576.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-x\s+(\.\/)?countdown\.sh\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/576.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-x\s+(\.\/)?countdown\.sh\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/576.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-x\s+(\.\/)?countdown\.sh\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/576.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if/else" statement added correctly
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 5: conditional binary operator expected
+./countdown.sh: line 5: syntax error near `-e'
+./countdown.sh: line 5: `if [[ $1 -e 5 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if/else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^true$/gm.test(output1) && !/^false$/.test(output1) && !/^true$/gm.test(output2) && /^false$/gm.test(output2))
+
+at Context.<anonymous> (test/588.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if/else" statement added correctly
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 5: conditional binary operator expected
+./countdown.sh: line 5: syntax error near `-g'
+./countdown.sh: line 5: `if [[ $1 -g 5 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if/else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^true$/gm.test(output1) && !/^false$/.test(output1) && !/^true$/gm.test(output2) && /^false$/gm.test(output2))
+
+at Context.<anonymous> (test/588.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ You should run your script with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './countdown.sh' && lastCommand[1] === '1' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should run your script with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './countdown.sh' && lastCommand[1] === '1' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/600.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should run your script with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './countdown.sh' && (arg < 1 || isNaN(arg) || /\./.test(lastCommand[1])) && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/610.test.js:10:5)

@@ -1,0 +1,39 @@
+2025-01-28 23:07:06.129 [info] 
+
+
+
+
+2025-01-28 23:07:06.149 [info] Extension host agent started.
+2025-01-28 23:07:06.172 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2025-01-28 23:07:06.287 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2025-01-28 23:07:06.303 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-01-28 23:07:07.506 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2025-01-28 23:07:07.528 [info] Getting Manifest... github.vscode-pull-request-github
+2025-01-28 23:07:07.829 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.3","date":"2025-01-14T18:16:31.093Z"}}
+2025-01-28 23:07:08.681 [info] [192.168.95.201][77313372][ManagementConnection] New connection established.
+2025-01-28 23:07:09.206 [error] Could not load vsce-sign module Cannot find package 'node-ovsx-sign' imported from /ide/out/server-main.js
+2025-01-28 23:07:09.206 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2025-01-28 23:07:09.361 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.102.0-universal: github.vscode-pull-request-github
+2025-01-28 23:07:09.367 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.102.0-universal
+2025-01-28 23:07:09.381 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2025-01-28 23:07:09.382 [info] Extension 'github.vscode-pull-request-github' v0.102.0 was successfully installed.
+2025-01-28 23:07:09.383 [info] Installing extensions...
+2025-01-28 23:07:09.671 [info] Installing extension 'coderoad.coderoad'...
+2025-01-28 23:07:09.671 [info] Getting Manifest... coderoad.coderoad
+2025-01-28 23:07:09.855 [info] Installing extension: coderoad.coderoad {"isMachineScoped":true,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.3","date":"2025-01-14T18:16:31.093Z"}}
+2025-01-28 23:07:10.705 [error] Could not load vsce-sign module Cannot find package 'node-ovsx-sign' imported from /ide/out/server-main.js
+2025-01-28 23:07:10.705 [info] Extension signature verification is not done: coderoad.coderoad
+2025-01-28 23:07:10.757 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal: coderoad.coderoad
+2025-01-28 23:07:10.762 [info] Renamed to /workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal
+2025-01-28 23:07:10.772 [info] Extension installed successfully: coderoad.coderoad file:///workspace/.vscode-remote/extensions/extensions.json
+2025-01-28 23:07:10.772 [info] Extension 'coderoad.coderoad' v0.19.4 was successfully installed.
+2025-01-28 23:07:11.151 [info] [192.168.171.139][f78d8f2f][ExtensionHostConnection] New connection established.
+2025-01-28 23:07:11.156 [info] [192.168.171.139][f78d8f2f][ExtensionHostConnection] <137> Launched Extension Host Process.
+2025-01-29 00:12:41.944 [info] [192.168.95.201][77313372][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-01-29 00:23:09.329 [info] [192.168.95.201][77313372][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-01-29 00:23:09.330 [info] [192.168.95.201][77313372][ManagementConnection] The client has reconnected.
+2025-01-29 00:23:09.978 [info] [192.168.95.201][f78d8f2f][ExtensionHostConnection] The client has reconnected.
+2025-01-29 00:25:59.013 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-29 00:25:59.014 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-29 01:45:55.761 [info] [192.168.95.201][f78d8f2f][ExtensionHostConnection] The client has reconnected.
+2025-01-29 01:46:24.087 [info] [192.168.95.201][77313372][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
